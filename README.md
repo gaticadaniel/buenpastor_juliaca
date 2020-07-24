@@ -1,0 +1,2 @@
+# buenpastor_juliaca
+colegiobuenpastor
