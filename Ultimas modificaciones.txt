@@ -1,0 +1,7 @@
+ALTER TABLE `personasjuridicas` ADD `created` DATETIME NOT NULL AFTER `ubigeo`, ADD `modified` DATETIME NOT NULL AFTER `created`, ADD `username` VARCHAR(50) NOT NULL AFTER `modified`;
+
+
+ALTER TABLE `registro_ventas` CHANGE `personasjuridicas_id` `personajuridica_id` INT(10) UNSIGNED NULL DEFAULT NULL;
+
+ALTER TABLE `personasjuridicas` CHANGE `ruc` `ruc` INT(11) UNSIGNED NOT NULL;
+ALTER TABLE `personasjuridicas` CHANGE `ruc` `ruc` VARCHAR(11) NOT NULL;

@@ -1,0 +1,69 @@
+#ctable{
+    padding: 8px ;
+    text-align: center;
+}
+
+#ctablec{
+    padding: 25px ;
+    text-align: center;
+}
+
+.c{
+    text-align: center;
+}
+
+.cp{
+    text-align: center;
+    color: green;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.ct{
+    color: #0715F5;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.cf{
+    color: red;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.cfj{
+    color: #f39c12;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.ctj{
+    color: #7E07F5;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.signos{
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    }
+.leyenda{
+    background: #E5E5E5;
+    border-radius: 10px;
+    box-shadow: 0 0 50px 0 rgba(0,0,0,.1);
+}
+.leyenda > ol{
+    display: inline-block;
+    font-weight: bold;
+    text-transform:uppercase; 
+}
+
+.comentario{
+    color: #04C0EE;
+    font-size: 20px;
+}
+
+
