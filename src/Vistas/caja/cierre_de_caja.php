@@ -8,7 +8,7 @@ $series_de_vouchers_pendientes = $_SESSION['series_de_vouchers_pendientes'];
 $series_de_rifs_pendientes = $_SESSION['series_de_rifs_pendientes'];
 $series_de_ries_pendientes = $_SESSION['series_de_ries_pendientes'];
 
-print_r($series_de_ries_pendientes);
+print_r('Modificación usando GIT');
 ?>
 
 <div name="menu">
